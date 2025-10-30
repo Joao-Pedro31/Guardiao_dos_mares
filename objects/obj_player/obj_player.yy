@@ -3,13 +3,16 @@
   "resourceVersion": "1.0",
   "name": "obj_player",
   "spriteId": {
-    "name": "spr_player",
-    "path": "sprites/spr_player/spr_player.yy",
+    "name": "spr_parado",
+    "path": "sprites/spr_parado/spr_parado.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_parado",
+    "path": "sprites/spr_parado/spr_parado.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_colisao",
