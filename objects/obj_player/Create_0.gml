@@ -2,8 +2,6 @@
 
 event_inherited();
 
-velocidade = 5;
-gravidade = 0.3;
 forca_pulo = -7;
 qntd_pulos = 0;
 max_pulos = 2;
@@ -84,3 +82,11 @@ else {
 
 }
 
+
+if (MOBILE){
+	
+	virtual_key_add(20,680, 100, 100, ord("A"));
+	virtual_key_add(180,680, 100, 100, ord("D"));
+	virtual_key_add(1200,680, 100, 100, vk_space);
+
+}

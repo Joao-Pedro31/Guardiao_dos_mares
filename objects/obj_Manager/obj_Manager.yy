@@ -1,23 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
-  "spriteId": {
-    "name": "spr_guardiao",
-    "path": "sprites/spr_guardiao/spr_guardiao.yy",
-  },
+  "name": "obj_Manager",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_double_jump",
-    "path": "sprites/spr_double_jump/spr_double_jump.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_colisao",
-    "path": "objects/obj_colisao/obj_colisao.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,10 +22,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],

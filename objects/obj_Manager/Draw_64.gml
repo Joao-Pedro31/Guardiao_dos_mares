@@ -1,6 +1,4 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-if(move_checkpoint)
-exit;
 
-input_player();
+draw_text(10, 10,"Pontuacao: "+string(global.pontos))

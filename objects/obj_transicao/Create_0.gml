@@ -1,6 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-if(move_checkpoint)
-exit;
 
-input_player();
+alpha =0;
+lv_start = false;
+room_destino = Room1;

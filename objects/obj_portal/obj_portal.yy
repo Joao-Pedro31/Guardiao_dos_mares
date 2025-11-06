@@ -1,12 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_lixo",
-  "spriteId": null,
+  "name": "obj_portal",
+  "spriteId": {
+    "name": "spr_portal",
+    "path": "sprites/spr_portal/spr_portal.yy",
+  },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_portal",
+    "path": "sprites/spr_portal/spr_portal.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -21,7 +27,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
